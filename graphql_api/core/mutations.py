@@ -12,9 +12,9 @@ Mutation = create_type(
     [
         create_account,
         create_checkout,
+        create_order,
         create_product,
         create_review,
         create_shipping,
-        create_order,
     ]
 )

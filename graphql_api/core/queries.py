@@ -12,14 +12,14 @@ Query = create_type(
     [
         accounts,
         account,
-        products,
-        product,
-        reviews,
-        review,
         checkouts,
         checkout,
         orders,
         order,
+        products,
+        product,
+        reviews,
+        review,
         shippings,
         shipping,
     ]
