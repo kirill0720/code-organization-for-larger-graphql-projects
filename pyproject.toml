@@ -2,13 +2,12 @@
 name = "code-organization-for-larger-graphql-projects"
 version = "0.1.0"
 description = ""
-authors = []
+authors = ["Kirill Netreba"]
 readme = "README.md"
-packages = [{include = "code_organization_for_larger_graphql_projects"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-strawberry-graphql = "^0.209.6"
+strawberry-graphql = "^0.209.7"
 fastapi = "^0.103.2"
 uvicorn = {extras = ["standard"], version = "^0.23.2"}
 
