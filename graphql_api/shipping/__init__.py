@@ -1,2 +1,2 @@
 from .query import ShippingQuery
-from .mutation import ShippingMutation
+# from .mutation import ShippingMutation
