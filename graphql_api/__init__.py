@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from strawberry.fastapi import GraphQLRouter
 
-from graphql_api.schema import schema
+from graphql_api.core.schema import schema
 
 
 def create_app() -> FastAPI:
